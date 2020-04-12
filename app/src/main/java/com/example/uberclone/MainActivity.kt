@@ -71,6 +71,7 @@ class MainActivity : AppCompatActivity() {
 
         edtEmail = layout.findViewById<MaterialEditText>(R.id.edtEmail)
         edtpassword = layout.findViewById<MaterialEditText>(R.id.edtpassword)
+
         progressDialog?.show()
 
         alertDialog.setPositiveButton("LOGIN", object : DialogInterface.OnClickListener {
